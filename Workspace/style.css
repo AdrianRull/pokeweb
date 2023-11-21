@@ -1,0 +1,127 @@
+#titlulo {
+    color:tomato;
+}
+
+p.especial {
+    color:aquamarine;
+}
+
+p.texto  {
+    color: slateblue;
+}
+
+div p {
+    color:aqua;
+} 
+
+div h2, div h3 {
+    color:brown
+}
+
+* {
+    font-size: 24px;
+   /* color: black */
+}
+
+/* .color {
+    color: rgb(red, green, blue)
+} */
+ 
+.color {
+    /* border: 5px blue outset */
+    /*
+        dotted
+        dashed
+        solid
+        double
+        groove
+        ridge
+        inset
+        outset
+        none
+        hidden
+    */
+    border-style: solid;
+    border-color: blue;
+    border-radius: 5px;
+    border-width: 2rem;
+}
+
+#fondo {
+     background-color: rgba(250,0,0); 
+
+    height: 200px;
+    background: #f00 url(monoke.jpg) repeat-y center bottom / 100px 100px;
+}
+
+.margen {
+    background-color: chocolate;
+    margin: 15px;
+    padding: 30px 15px 5px;
+    border: solid 1px black
+    height: 100px;  
+    width: 100px;
+    overflow: scroll;
+    outline: 1px solid black;
+}
+
+.text {
+    font-family: 'roboto', sans-serif;
+    text-align: center;
+    text-decoration: overline;
+    text-shadow: 5px 10px 20px purple;
+    font-weight:bold;
+}
+
+/** * {
+    font-family: 'roboto',sans-serif;
+} **/
+
+a:link {
+    color:blueviolet;
+}
+
+ul {
+    background-color: cyan;
+    list-style-type: none;
+    padding-left: 0;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+       }
+
+th, td {
+    border: solid 1px rgb(212, 212, 212);
+    padding: 5px;
+}
+
+th {
+    background-color: coral;
+    color: white;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(243, 232, 217);
+}
+
+tr:hover {
+    background-color: rgb(145, 127, 119);
+    cursor: pointer;
+}
+
+span {
+    display: none;
+}
+
+.inline {
+    display: inline;
+}
+
+#position {
+    position: sticky;
+    left: 20px;
+    top: 25px; 
+}
